@@ -1,0 +1,20 @@
+{
+    "projectName": "amplifyreactapp",
+    "projectPath": "C:\\Users\\vieta\\Documents\\UCI-Full_Stack\\amplify-react-app",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "javascript": "C:\\Users\\vieta\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "~/Documents/UCI-Full_Stack/amplify-react-app",
+            "DistributionDir": "build",
+            "BuildCommand": "npm.cmd run-script build",
+            "StartCommand": "npm.cmd run-script start"
+        }
+    },
+    "providers": {
+        "awscloudformation": "C:\\Users\\vieta\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-provider-awscloudformation"
+    }
+}
