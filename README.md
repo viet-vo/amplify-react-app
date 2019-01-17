@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*Unfortunately, you will only be able to run this application locally unless you re-initalize with Amplify and replace configuration files.
 
-## This project utilizes AWS's Amplify as well
+## This project utilizes AWS's Amplify, React, and Bootstrap
 
