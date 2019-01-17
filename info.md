@@ -27,3 +27,7 @@ Some next steps:
 
 Pro tip:
 Try "amplify add api" to create a backend API and then "amplify publish" to deploy everything
+
+
+
+CURRENTLY have react-pose animation package added as well.

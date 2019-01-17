@@ -14,7 +14,19 @@
 	"hosting": {
 		"S3AndCloudFront": {
 			"service": "S3AndCloudFront",
-			"providerPlugin": "awscloudformation"
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplifyreactapp-20190115210345-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2019-01-17T08:31:38.676Z",
+			"output": {
+				"S3BucketSecureURL": "https://amplifyreactapp-20190117001725-hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://amplifyreactapp-20190117001725-hostingbucket.s3-website-us-west-2.amazonaws.com",
+				"Region": "us-west-2",
+				"HostingBucketName": "amplifyreactapp-20190117001725-hostingbucket"
+			},
+			"lastPushDirHash": "0C8iJELkjpS3NxyxmKhnJTAYUTI="
 		}
 	}
 }
