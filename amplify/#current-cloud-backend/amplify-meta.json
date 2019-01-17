@@ -19,7 +19,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/amplifyreactapp-20190115210345-deployment/amplify-cfn-templates/hosting/template.json",
 				"logicalId": "hostingS3AndCloudFront"
 			},
-			"lastPushTimeStamp": "2019-01-17T10:29:36.593Z",
+			"lastPushTimeStamp": "2019-01-17T11:02:26.938Z",
 			"output": {
 				"S3BucketSecureURL": "https://amplifyreactapp-20190117001725-hostingbucket.s3.amazonaws.com",
 				"WebsiteURL": "http://amplifyreactapp-20190117001725-hostingbucket.s3-website-us-west-2.amazonaws.com",
@@ -40,7 +40,7 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/amplifyreactapp-20190115210345-deployment/amplify-cfn-templates/auth/cognito15bddde3-cloudformation-template.yml",
 				"logicalId": "authcognito15bddde3"
 			},
-			"lastPushTimeStamp": "2019-01-17T10:29:36.611Z",
+			"lastPushTimeStamp": "2019-01-17T11:02:26.961Z",
 			"output": {
 				"AppClientSecret": "6qjvnv4d7ue9f21s1frubrjerao2c0dfqm863i57floumdm9uct",
 				"UserPoolId": "us-west-2_7zacEN0nf",
@@ -50,7 +50,7 @@
 				"IdentityPoolName": "cognito15bddde3_identitypool_15bddde3",
 				"UserPoolName": "cognito15bddde3_userpool_15bddde3"
 			},
-			"lastPushDirHash": "U3QikdGaBr+WLDXsAU7rpqss/G4="
+			"lastPushDirHash": "vvldIn8tH9znezvxhPf7RDiaiyo="
 		}
 	}
 }
