@@ -5,21 +5,35 @@ const SignUp = () => (
         <div className="col-xl-2"></div>
         <div className="col-xl-3">
             <div className="card text-center" style={{ width: 18 + 'rem' }}>
-                <div className="card-body">
-                    <h5 className="card-title">Special title treatment</h5>
-                    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
-                </div>
+                <form>
+                    <div className="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>
+                        <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div className="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"></input>
+                    </div>
+                    <button type="submit" className="btn btn-primary">Signup</button>
+                </form>
             </div>
         </div>
         <div className="col-xl-2"></div>
         <div className="col-xl-3">
             <div className="card text-center" style={{ width: 18 + 'rem' }}>
-                <div className="card-body">
-                    <h5 className="card-title">Special title treatment</h5>
-                    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
-                </div>
+            <form>
+                    <div className="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>
+                        <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div className="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"></input>
+                    </div>
+                    <button type="submit" className="btn btn-primary">Signin</button>
+                </form>
             </div>
         </div>
         <div className="col-xl-2"></div>

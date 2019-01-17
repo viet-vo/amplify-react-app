@@ -19,14 +19,38 @@
 				"s3TemplateURL": "https://s3.amazonaws.com/amplifyreactapp-20190115210345-deployment/amplify-cfn-templates/hosting/template.json",
 				"logicalId": "hostingS3AndCloudFront"
 			},
-			"lastPushTimeStamp": "2019-01-17T08:31:38.676Z",
+			"lastPushTimeStamp": "2019-01-17T10:29:36.593Z",
 			"output": {
 				"S3BucketSecureURL": "https://amplifyreactapp-20190117001725-hostingbucket.s3.amazonaws.com",
 				"WebsiteURL": "http://amplifyreactapp-20190117001725-hostingbucket.s3-website-us-west-2.amazonaws.com",
 				"Region": "us-west-2",
-				"HostingBucketName": "amplifyreactapp-20190117001725-hostingbucket"
+				"HostingBucketName": "amplifyreactapp-20190117001725-hostingbucket",
+				"CloudFrontSecureURL": "https://d3ucpzz0n23r11.cloudfront.net",
+				"CloudFrontDistributionID": "E8JTLQ6MGUDIY",
+				"CloudFrontDomainName": "d3ucpzz0n23r11.cloudfront.net"
 			},
-			"lastPushDirHash": "0C8iJELkjpS3NxyxmKhnJTAYUTI="
+			"lastPushDirHash": "GztdknE20RoYXbXwebknOnX5CFs="
+		}
+	},
+	"auth": {
+		"cognito15bddde3": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplifyreactapp-20190115210345-deployment/amplify-cfn-templates/auth/cognito15bddde3-cloudformation-template.yml",
+				"logicalId": "authcognito15bddde3"
+			},
+			"lastPushTimeStamp": "2019-01-17T10:29:36.611Z",
+			"output": {
+				"AppClientSecret": "6qjvnv4d7ue9f21s1frubrjerao2c0dfqm863i57floumdm9uct",
+				"UserPoolId": "us-west-2_7zacEN0nf",
+				"AppClientIDWeb": "1ekmdjuu41ni3tn2afpgi8n6lm",
+				"AppClientID": "6j1jjdpm8q0o6oortcutcmbnvl",
+				"IdentityPoolId": "us-west-2:eae6472a-35c2-4e3e-89f2-78af8ac5f318",
+				"IdentityPoolName": "cognito15bddde3_identitypool_15bddde3",
+				"UserPoolName": "cognito15bddde3_userpool_15bddde3"
+			},
+			"lastPushDirHash": "U3QikdGaBr+WLDXsAU7rpqss/G4="
 		}
 	}
 }
